@@ -1,5 +1,5 @@
  # 🌲 Forest Cover Type Prediction
-### Machine Learning Internship Project | Multi-Class Classification
+ Multi-Class Classification
 
 ## 📌 Project Overview
 This project aims to predict the forest cover type (the predominant kind of tree) for 30 x 30 meter cells based on cartographic variables. The dataset used is the **UCI Forest Cover Type**, containing over 581,000 observations from the Roosevelt National Forest in northern Colorado.
@@ -40,5 +40,4 @@ I chose the **Random Forest Classifier** for its robustness against outliers and
 | **Macro Avg Recall** | 92.00% |
 | **Macro Avg F1-Score** | 86.00% |
 
-## 💡 Key Takeaway
-By addressing class imbalance through weighted penalties, the model became significantly more reliable at identifying rare forest types (Classes 4 and 5) without sacrificing—and actually slightly improving—overall accuracy.
+
